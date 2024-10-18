@@ -1,10 +1,3 @@
-
-# This program implements the RSA algorithm for cryptography.
-# It randomly selects two prime numbers from a txt file of prime numbers and 
-# uses them to produce the public and private keys. Using the keys, it can 
-# either encrypt or decrypt messages.
-
-
 import random
 
 def gcd(a, b):
@@ -109,26 +102,3 @@ def decrypt(blocks, block_size=2):
 
     return message
 
-# def main():
-#     if input('Do you want to generate new public and private keys? (y or n) ') == 'y':
-#         choose_keys()
-
-#     instruction = input('Would you like to encrypt or decrypt? (Enter e or d): ')
-#     if instruction == 'e':
-#         message = input('What would you like to encrypt?\n')
-#         if input('Do you want to encrypt using your own public key? (y or n) ') == 'y':
-#             print('Encrypting...')
-#             print(encrypt(message))
-#         else:
-#             file_option = input('Enter the file name that stores the public key: ')
-#             print('Encrypting...')
-#             print(encrypt(message, file_option))
-#     elif instruction == 'd':
-#         message = input('What would you like to decrypt?\n')
-#         print('Decryption...')
-#         print(decrypt(message))
-#     else:
-#         print('That is not a proper instruction.')
-
-# if __name__ == "__main__":
-#     main()
