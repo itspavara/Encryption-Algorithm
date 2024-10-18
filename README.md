@@ -41,7 +41,8 @@ AES (Advanced Encryption Standard) is a widely-used symmetric encryption algorit
 
 ## Description
 
-This project implements the RSA (Rivest-Shamir-Adleman) encryption algorithm, providing secure encryption and decryption for sensitive data. RSA is an asymmetric encryption algorithm that uses a pair of keys – a public key for encryption and a private key for decryption. The project is capable of securely encrypting and decrypting messages of varying lengths, depending on the key size used, ensuring robust security for digital communication and data protection..
+This project implements the RSA (Rivest-Shamir-Adleman) encryption algorithm It randomly selects two prime numbers from a txt file of prime numbers and 
+uses them to produce the public and private keys. Using the keys, providing secure encryption and decryption for sensitive data. RSA is an asymmetric encryption algorithm that uses a pair of keys – a public key for encryption and a private key for decryption. The project is capable of securely encrypting and decrypting messages of varying lengths, depending on the key size used, ensuring robust security for digital communication and data protection..
 
 ## Overview of AES
 
