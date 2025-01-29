@@ -9,9 +9,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-permissions:
-  contents: read
-
 jobs:
   sast_scan:
     name: Run Bandit Scan
@@ -19,7 +16,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: action/chechout@v4
+      uses: action/checkout@v4
 
     - name: Set up Python
       uses: action/setup-python@v3
